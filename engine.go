@@ -31,11 +31,11 @@ func (c *CodeBuilder) AddLine(text string) {
 }
 
 func (c *CodeBuilder) Indent() {
-	c.IndentLevel += 1
+	c.IndentLevel++
 }
 
 func (c *CodeBuilder) Dedent() {
-	c.IndentLevel -= 1
+	c.IndentLevel—
 	c.AddLine("}\n")
 }
 
