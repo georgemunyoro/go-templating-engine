@@ -249,7 +249,6 @@ func (t *Template) Render(outputFunctionName string) string {
 			}
 		}
 	}
-
 	return output
 }
 
