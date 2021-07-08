@@ -35,7 +35,7 @@ func (c *CodeBuilder) Indent() {
 }
 
 func (c *CodeBuilder) Dedent() {
-	c.IndentLevel—
+	c.IndentLevel--
 	c.AddLine("}\n")
 }
 
