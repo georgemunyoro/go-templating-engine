@@ -5,7 +5,7 @@ name = "go"
 enabled = true
 
   [analyzers.meta]
-  import_paths = ["github.com/georgemunyoro/go-templating-engine"]
+  import_paths = ["github.com/georgemunyoro/weave"]
 
 [[analyzers]]
 name = "test-coverage"
